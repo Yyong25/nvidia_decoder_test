@@ -1,3 +1,0 @@
-/home/yang/code1/rt104/nvidia_decoder_test/src/build/CMakeFiles/test_decoder_caps.dir
-/home/yang/code1/rt104/nvidia_decoder_test/src/build/CMakeFiles/edit_cache.dir
-/home/yang/code1/rt104/nvidia_decoder_test/src/build/CMakeFiles/rebuild_cache.dir

@@ -17,7 +17,7 @@
      cuInit(0);
      CUdevice cuDevice;
      cuDeviceGet(&cuDevice, 0);
-     cuCtxCreate(&cuContext, NULL,CU_CTX_SCHED_AUTO, cuDevice);
+     cuCtxCreate(&cuContext,CU_CTX_SCHED_AUTO, cuDevice);
  
      // 测试1: H.264 8-bit 420
      CUVIDDECODECAPS decodecaps;
@@ -29,7 +29,7 @@
      cuCtxPushCurrent(cuContext);
      auto result = cuvidGetDecoderCaps(&decodecaps);
      if(result != CUDA_SUCCESS) {
-         printf("cuvidGetDecoderCaps失败 %d \n", result);
+         printf("cuvidGetDecoderCaps fail code error %d \n", result);
          return -1;
      }
      else
@@ -48,4 +48,5 @@
      return 0;
  }
  
+
  
