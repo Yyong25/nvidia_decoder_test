@@ -1,6 +1,6 @@
 # NVIDIA Video Decoder Caps Test
 
-This project tests the decoder capabilities query functionality of the NVIDIA Video Codec SDK using `cuvidGetDecoderCaps`.
+This project is designed to verify whether the `cuvidGetDecoderCaps` function can return successfully when testing NVIDIA Video Codec SDK.
 
 ## Prerequisites
 
